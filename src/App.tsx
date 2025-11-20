@@ -52,7 +52,7 @@ type SkillCategory = {
 const designSkills: SkillLevel[] = [
   { label: "Figma", icon: <FigmaIcon />, level: 90 },
   { label: "FigJam/Miro", icon: <FigmaIcon />, level: 90 },
-  { label: "UI Design System", icon: <StorybookIcon />, level: 85 },
+  { label: "UI Design System", icon: <StorybookIcon />, level: 90 },
   { label: "Accesibility", icon: <AccessibilityIcon />, level: 85 },
   { label: "UX Research", icon: <AgileIcon />, level: 80 },
   { label: "Agile Teamwork/Trello", icon: <AgileIcon />, level: 90 },
@@ -60,20 +60,20 @@ const designSkills: SkillLevel[] = [
 ];
 
 const developmentSkills: SkillLevel[] = [
-  { label: "React", icon: <ReactIcon />, level: 45 },
-  { label: "TypeScript", icon: <JavascriptIcon />, level: 40 },
+  { label: "React", icon: <ReactIcon />, level: 65 },
+  { label: "TypeScript", icon: <JavascriptIcon />, level: 60 },
   { label: "Tailwind", icon: <TailwindIcon />, level: 60 },
-  { label: "REST API", icon: <ApiIcon />, level: 40 },
-  { label: "Node.js", icon: <NodeIcon />, level: 40 },
-  { label: "MongoDB", icon: <MongoIcon />, level: 45 },
-  { label: "CI/CD· Github", icon: <GitIcon />, level: 60 },
+  { label: "REST API", icon: <ApiIcon />, level: 60 },
+  { label: "Node.js", icon: <NodeIcon />, level: 60 },
+  { label: "MongoDB", icon: <MongoIcon />, level: 65 },
+  { label: "CI/CD· Github", icon: <GitIcon />, level: 70 },
 ];
 
 const aiBusinessSkills: SkillLevel[] = [
-  { label: "AI", icon: <ReactIcon />, level: 45 },
-  { label: "Strategy", icon: <TypescriptIcon />, level: 40 },
-  { label: "Communication", icon: <TailwindIcon />, level: 50 },
-  { label: "Teamwork", icon: <ApiIcon />, level: 40 },
+  { label: "AI", icon: <ReactIcon />, level: 80 },
+  { label: "Strategy", icon: <TypescriptIcon />, level: 70 },
+  { label: "Communication", icon: <TailwindIcon />, level: 90 },
+  { label: "Teamwork", icon: <ApiIcon />, level: 90 },
 ];
 
 const skillCategories: SkillCategory[] = [
