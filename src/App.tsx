@@ -138,7 +138,7 @@ const TechRadar = memo(function TechRadar() {
           Core
         </p>
         <p className=" text-[12px] font-semibold text-slate-800 dark:text-slate-100">
-          Human-centered · Product · Frontend
+          Human-centered Product 
         </p>
       </div>
 
@@ -508,16 +508,17 @@ function App() {
                     ></path>
                   </svg>
                 </span>{" "}
-                Full-Stack{" "}
+                I am a UX/UI {" "}
                 <span className="text-green-500 dark:text-emerald-300">
-                  Developer
+                Designer {" "}
                 </span>
                 <br />
-                with a strong background in <br />
-                <span className="text-green-500 dark:text-emerald-300">
-                  UX/UI Design
+                & 
+                Frontend <span className="text-blue-500 dark:text-emerald-300">
+                Developer
                 </span>
               </h2>
+              <h3 className="text-4xl">Bridging design, engineering, and real product thinking.</h3>
 
               <p className="mt-6 text-base md:text-lg text-gray-600 dark:text-slate-300 max-w-3xl leading-relaxed">
                 I care about intuitive, detailed, and user-centered experiences.
@@ -667,10 +668,10 @@ function App() {
                 {/* 标签 */}
                 <div className="flex flex-wrap gap-2 text-xs md:text-[13px]">
                   <span className="px-3 py-1 rounded-full bg-sky-100 text-sky-800 dark:bg-sky-400/20 dark:text-sky-200">
-                    Full-Stack
+                  UX/UI · Design System · Product Design
                   </span>
                   <span className="px-3 py-1 rounded-full bg-stone-100 text-stone-800 dark:bg-slate-700 dark:text-slate-100">
-                    React · TypeScript
+                  React Frontend · TypeScript · Full-Stack
                   </span>
                   <span className="px-3 py-1 rounded-full bg-stone-100 text-stone-800 dark:bg-slate-700 dark:text-slate-100">
                     Node.js · MongoDB
@@ -846,6 +847,11 @@ function App() {
                 About Me
               </h3>
 
+              <p className="mb-6 text-[16 px] md:text-md text-gray-500 dark:text-slate-400 text-start md:text-left max-w-3xl">
+                A balanced mix of frontend engineering, UX design and product
+                thinking – not just coding, not just pretty pixels.
+              </p>
+
               <p className="text-gray-700 dark:text-slate-300 leading-relaxed text-[15px] md:text-[16px] max-w-3xl">
                 I’m a <span className="font-semibold text-green-500">UX/UI Designer</span> with
                 an academic background in communication design (M.A. HAW
@@ -881,15 +887,11 @@ function App() {
             </div>
 
             {/* Tech Radar：Desktop 在左侧（md:order-1） */}
-            <div className="flex flex-col items-center md:items-start gap-4 md:order-1">
-              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-gray-500 dark:text-slate-400 text-center md:text-left relative z-10">
+            <div className="flex flex-col text-center items-center md:items-center mb-8 gap-4 md:order-1">
+              <p className="text-md font-semibold tracking-[0.18em] uppercase text-gray-500 dark:text-slate-400 text-center md:text-left relative z-10">
                 Design &amp; Tech Radar · Skills I actually use
               </p>
               <TechRadar />
-              <p className="text-[11px] md:text-xs text-gray-500 dark:text-slate-400 text-center md:text-left max-w-xs">
-                A balanced mix of frontend engineering, UX design and product
-                thinking – not just coding, not just pretty pixels.
-              </p>
             </div>
           </motion.div>
 
